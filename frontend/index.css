@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "IBM Plex Sans";
+    text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+#large{
+    height: 650px;
+    position: relative;
+    width: 100%;
+    margin-top: 120px;
+}
+#share{
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    color:white;
+    top: 30px;
+    right: 27%;
+     padding: 20px;
+}
+#large>img{
+    height: 650px;
+width: 100%;
+}
+#match{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height:auto;
+}
+#mat1,#mat2,#mat3,#mat4,#mat5{
+    position: relative;
+    height: auto;
+    cursor: pointer;
+}
+#mat1>img,#mat2>img,#mat3>img,#mat4>img,#mat5>img{
+  
+    height: 500px;
+    width: 96%;
+
+} 
+ #en1,#en2,#en3,#en4,#en5{
+    text-align: left;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    position: absolute;
+z-index: 10;
+left: 20px;
+bottom: 25px;
+ }
+#book{
+    height: 650px;
+    position: relative;
+    
+    width: 100%;
+}
+#book>img{
+height: 650px;
+width: 100%;
+}
+#free{
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    color:white;
+    top: 30px;
+    right: 37%;
+     padding: 20px;
+
+}
+#bottom{
+    color: white;
+    background-color: #383838;
+}
+#bottom2{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+#bot1>h3,#bot1>p,#bot1>h4{
+    margin-top: 20px;
+}
+#last{
+    background-color: #666;
+}
+#last-2{
+    width: 90%;
+    margin: auto;
+}
+#india-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: white;
+    margin-bottom: 24px;
+}
+#all-cities{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-row-gap: 24px;
+    color: white;
+    font-family: "IBM Plex Sans";
+}
+#country{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    color: white;
+}
+#country-name,#city-name{
+    margin-top: 24px;
+}
+#media{
+    display: flex;
+    width: 40%;
+    margin-top: 24px;
+}
+#media>div{
+    width: 13%;
+}
+#insta,#twit,#you{
+    width: 55%;
+    height:60%;
+}
+#facebook{
+    height: 60%;
+    width: 13%;
+}
+#footer{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 2fr 3fr;
+}
+#new1{
+color: #a3a2a2;
+font-size: 70px;
+font-weight: 600;
+    line-height: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#new2{
+display: grid;
+grid-template-columns: 1fr 3fr;
+color: white;
+margin-bottom: 60px;
+}
+#qr{
+    margin-top: 100px;
+}
+#download{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 100px;
+}
+#app{
+    display: flex;
+}
+#google,#store{
+    border: 0.5px solid white;
+    background-color: black;
+    border-radius: 5%;
+    display: flex;
+    height: 32px;
+    padding-left: 5px ;
+    padding-right: 10px;
+    margin-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+#store img{
+    height: 70%;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+#google img{
+height: 70%;
+width: 100%;
+margin-top: 5px;
+}
