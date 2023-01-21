@@ -1,0 +1,22 @@
+#cars{
+    width: 60%;
+    border: 1px solid red;
+    height: auto;
+    margin:auto;
+}
+#location{
+    display: flex;
+}
+#pickup{
+    
+}
+button{
+background-color: green;
+color: white;
+width: 37%;
+text-align: center;
+padding: 10px;
+font-size:16px ;
+border: none;
+margin-left: 350px;
+}
