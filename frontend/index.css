@@ -20,7 +20,7 @@ cursor: pointer;
 margin-left: 20px;
 margin-top: 2px;
 }
-#menu{
+/* #menu{
    background-color: white;
     z-index: 30;
     height: 100%;
@@ -31,13 +31,19 @@ margin-top: 2px;
     box-shadow: 3px 0 8px 1px rgb(0 0 0 / 40%);
     max-width: 400px;
     width: 85%;
+    display: none;
 }
 #menu_content{
     display: flex;
 }
-#change_city{
+#Ncr{
     color: red;
 }
+
+#menu_content img{
+    width: 24px;
+    height: 24px;
+} */
 #nav1 div{
     margin-bottom: 2px;
     width: 15px;
