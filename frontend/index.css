@@ -7,8 +7,146 @@
 ::-webkit-scrollbar{
     display: none;
 }
+#navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+   
+}
+#nav1{
+cursor: pointer;
+margin-left: 20px;
+margin-top: 2px;
+}
+#menu{
+   background-color: white;
+    z-index: 30;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    overflow-x: hidden;
+    box-shadow: 3px 0 8px 1px rgb(0 0 0 / 40%);
+    max-width: 400px;
+    width: 85%;
+}
+#menu_content{
+    display: flex;
+}
+#change_city{
+    color: red;
+}
+#nav1 div{
+    margin-bottom: 2px;
+    width: 15px;
+    border: 1.5px solid white ;
+}
+#nav2{
+cursor: pointer;
+margin-top: 2px;
 
+}
+#nav2>img{
+    height:180px ;
+    width: 220px;
+}
+#nav3{
+display: flex;
+margin: auto;
+justify-content: center;
+margin-left: 1250px;
 
+}
+#host{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding-left: 15px;
+   padding-right:15px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+    display: flex;
+    border-radius: 50px;
+}
+#login{
+    cursor: pointer;
+    margin-left: 50px;
+}
+#perfect{
+    height: 650px;
+    position: relative;
+    width: 100%;  
+}
+#perfect>img{
+    height: 650px;
+    width: 100%;
+}
+#per1{
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    color:white;
+    top: 35px;
+    right: 20%;
+     padding: 20px;
+}
+#per4{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    height: 50px;
+    width: 25%;
+    bottom: 290px;
+    left: 38%;
+    text-align: center;
+    background-color: white;
+    display: flex;
+}
+#round{
+border: 1px solid red;
+color: red;
+width: 50%;
+cursor: pointer;
+
+}
+#airport{
+    width: 50%;
+    cursor: pointer;
+
+}
+
+#per3{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    height: 50px;
+    width: 25%;
+    bottom: 220px;
+    left: 38%;
+    text-align: left;
+    background-color: white;
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+
+}
+#per2{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    height: 50px;
+    width: 25%;
+    bottom: 150px;
+    left: 38%;
+    text-align: center;
+    background-color: white;
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+}
 #large{
     height: 650px;
     position: relative;
@@ -83,6 +221,7 @@ width: 100%;
 #bottom{
     color: white;
     background-color: #383838;
+    
 }
 #bottom2{
     width: 90%;
@@ -96,13 +235,16 @@ width: 100%;
 }
 #bot1>h3,#bot1>p,#bot1>h4{
     margin-top: 20px;
+    text-align: left;
 }
 #last{
     background-color: #666;
+    text-align: left;
 }
 #last-2{
     width: 90%;
     margin: auto;
+    text-align: left;
 }
 #india-title{
     font-size: 20px;
@@ -111,6 +253,7 @@ width: 100%;
     letter-spacing: normal;
     color: white;
     margin-bottom: 24px;
+    text-align: left;
 }
 #all-cities{
     display: grid;
@@ -118,35 +261,44 @@ width: 100%;
     grid-row-gap: 24px;
     color: white;
     font-family: "IBM Plex Sans";
+    text-align: left;
+}
+#cities_name{
+    text-align: left;
 }
 #country{
     display: grid;
     grid-template-columns: repeat(4,25%);
     color: white;
+    text-align: left;
 }
 #country-name,#city-name{
     margin-top: 24px;
+    text-align: left;
 }
+
 #media{
     display: flex;
     width: 40%;
     margin-top: 24px;
+    text-align: left;
 }
 #media>div{
     width: 13%;
 }
 #insta,#twit,#you{
-    width: 55%;
+    width: 40%;
     height:60%;
 }
 #facebook{
     height: 60%;
-    width: 13%;
+    width: 45%;
 }
 #footer{
     display: grid;
     gap: 24px;
     grid-template-columns: 2fr 3fr;
+    text-align: left;
 }
 #new1{
 color: #a3a2a2;
@@ -155,12 +307,14 @@ font-weight: 600;
     line-height: 1;
     margin-top: 100px;
     margin-bottom: 100px;
+   
 }
 #new2{
 display: grid;
 grid-template-columns: 1fr 3fr;
 color: white;
 margin-bottom: 60px;
+
 }
 #qr{
     margin-top: 100px;
