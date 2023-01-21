@@ -7,6 +7,9 @@
 ::-webkit-scrollbar{
     display: none;
 }
+a{
+    text-decoration: none;
+}
 #navbar{
     height: 80px;
     background-color: black;
@@ -20,7 +23,7 @@ cursor: pointer;
 margin-left: 20px;
 margin-top: 2px;
 }
-/* #menu{
+ #menu{
    background-color: white;
     z-index: 30;
     height: 100%;
@@ -29,12 +32,18 @@ margin-top: 2px;
     left: 0;
     overflow-x: hidden;
     box-shadow: 3px 0 8px 1px rgb(0 0 0 / 40%);
+    display: block;
+    width: 0%;
     max-width: 400px;
-    width: 85%;
-    display: none;
 }
 #menu_content{
     display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#menu_content>div{
+    margin-left: 10px;
 }
 #Ncr{
     color: red;
@@ -43,11 +52,21 @@ margin-top: 2px;
 #menu_content img{
     width: 24px;
     height: 24px;
-} */
+} 
+#nav1{
+    cursor: pointer;
+}
 #nav1 div{
     margin-bottom: 2px;
     width: 15px;
     border: 1.5px solid white ;
+}
+#homepage{
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    z-index: 20;
+    
 }
 #nav2{
 cursor: pointer;

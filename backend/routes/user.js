@@ -19,9 +19,9 @@ userRouter.post("/register", async(req,res)=>{
     }
 })
 userRouter.post("/login",async(req,res)=>{
-    const {mob,pass} = req.body
+    const {email,pass} = req.body
     try {
-        const user = await UserModel.find({mob})
+        const user = await UserModel.find({email})
         const hashed = user[0].pass
         bcrypt.compare(pass,hashed,(err,result)=>{
             if(err){
