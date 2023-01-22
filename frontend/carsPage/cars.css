@@ -52,6 +52,7 @@ font-size:16px ;
 border: none;
 margin-left: 350px;
 margin-top: 100px;
+cursor: pointer;
 }
 input{
     outline: none;

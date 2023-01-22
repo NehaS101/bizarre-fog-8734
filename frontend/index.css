@@ -10,19 +10,7 @@
 a{
     text-decoration: none;
 }
-#navbar{
-    height: 80px;
-    background-color: black;
-    color: white;
-    align-items: center;
-    display: flex;
-   
-}
-#nav1{
-cursor: pointer;
-margin-left: 20px;
-margin-top: 2px;
-}
+
 #changing{
     background-color: white;
     z-index: 60;
@@ -103,14 +91,6 @@ select{
     width: 24px;
     height: 24px;
 } 
-#nav1{
-    cursor: pointer;
-}
-#nav1 div{
-    margin-bottom: 2px;
-    width: 15px;
-    border: 1.5px solid white ;
-}
 #homepage{
     height: 100%;
     width: 100%;
@@ -118,6 +98,26 @@ select{
     z-index: 20;
     
 }
+#navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+   
+}
+#nav1{
+cursor: pointer;
+margin-left: 20px;
+margin-top: 2px;
+cursor: pointer;
+}
+#nav1 div{
+    margin-bottom: 2px;
+    width: 15px;
+    border: 1.5px solid white ;
+}
+
 #nav2{
 cursor: pointer;
 margin-top: 2px;
@@ -221,6 +221,53 @@ cursor: pointer;
     background-color: white;
     color: rgb(139, 139, 139);
     cursor: pointer;
+}
+#car_range{
+display: flex;
+width: 60%;
+margin: auto;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+
+#slide{
+   display: grid;
+   grid-template-rows: repeat(1,0.5fr);
+   margin-top: 100px;
+    width: 100%;
+    height: 600px;
+overflow: hidden;
+
+}
+
+#slide>h1{
+    width: 50%;
+   color: rgb(83, 83, 83);
+   text-align: left;
+   margin-left: 170px;
+   font-size: 36px;
+  
+}
+#slide>h2{
+    width: 50%;
+   color: #a3a2a2;
+    text-align: left;
+    margin-left: 170px;
+    font-size: 30px;
+    margin-bottom: 15px;
+ 
+}
+#slide>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+#left,#right{
+    width: 10%;
 }
 #large{
     height: 650px;
