@@ -23,6 +23,54 @@ cursor: pointer;
 margin-left: 20px;
 margin-top: 2px;
 }
+#changing{
+    background-color: white;
+    z-index: 60;
+    height: auto;
+    width: 25%;
+    margin: auto;
+    left:35% ;
+    top: 22%;
+    position: absolute;
+    transition: 0.3;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+#confirm{
+    width: 70%;
+    margin: auto;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+#select1{
+   
+    border: 1px solid rgb(192, 190, 190);
+    width: 70%;
+    margin: auto;
+    height: 50px;
+padding: 5px;
+margin-bottom: 30px;
+
+}
+#select2,#select{
+    cursor: pointer;
+}
+select option{
+    cursor: pointer;
+}
+select{
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    
+}
  #menu{
    background-color: white;
     z-index: 30;
@@ -47,6 +95,8 @@ margin-top: 2px;
 }
 #Ncr{
     color: red;
+    padding-left: 120px;
+    margin-top: 6px;
 }
 
 #menu_content img{
