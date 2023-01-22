@@ -12,6 +12,14 @@ carRouter.post("/post",async(req,res)=>{
     }
     
 })
+carRouter.get("/carData",async(req,res)=>{
+    try {
+        const user =await CarModel.find()
+        res.send(user)
+    } catch (error) {
+        res.send("failed to get")
+    }
+})
 
 module.exports={
     carRouter
