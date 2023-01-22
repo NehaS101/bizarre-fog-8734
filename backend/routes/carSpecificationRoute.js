@@ -14,7 +14,16 @@ CarRouter.get("/Cars",async (req,res)=>{
         })
     }
 })
-
+CarRouter.patch("/update/:id",async(req,res)=>{
+    const payload=req.body
+    let id=req.params.id
+    try {
+        await CarModel.findByIdAndUpdate({"_id":id},payload)
+        res.send(updated)
+    } catch (error) {
+        res.send(error)
+    }
+})
 CarRouter.post("/PostCars",async (req,res)=>{
     const bodies = req.body
     try {
