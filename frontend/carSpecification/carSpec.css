@@ -1,0 +1,131 @@
+a{
+    text-decoration: none;
+}
+#navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+   
+}
+#nav1{
+cursor: pointer;
+margin-left: 20px;
+margin-top: 2px;
+cursor: pointer;
+}
+#nav1 div{
+    margin-bottom: 2px;
+    width: 15px;
+    border: 1.5px solid white ;
+}
+
+#nav2{
+cursor: pointer;
+margin-top: 2px;
+
+}
+
+#nav3{
+display: flex;
+margin: auto;
+justify-content: center;
+margin-left: 1250px;
+
+}
+#host{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding-left: 15px;
+   padding-right:15px;
+   padding-top: 15px;
+   padding-bottom: 0px;
+    display: flex;
+    border-radius: 50px;
+}
+#login{
+    cursor: pointer;
+    margin-left: 50px;
+    display: flex;
+}
+#user2{
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 100%;
+    margin-top:5px;
+    height: 35px;
+}
+#main{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+#left_side{
+width: 28%;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+height: auto;
+}
+#right_side{
+    width: 60%;
+    margin-left: 20px;
+    height: auto;
+}
+#cards{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+gap: 10px;
+}
+#cards>div{
+padding-left: 20px;
+    cursor: pointer;
+   
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#cards>div>img{
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+#rate{
+background-color: black;
+color: white;
+width: 13%;
+border-radius: 50px;
+padding-left: 5px;
+padding-top: 3px;
+padding-bottom: 3px;
+
+}
+#div2{
+    display: flex;
+}
+#search{
+    height: 25px;
+    width: 80%;
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 6px;
+}
+#function{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+#sort{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+#sort img{
+    height: 24px;
+    width: 24px;
+}
