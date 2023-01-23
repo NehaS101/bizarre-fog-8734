@@ -6,6 +6,8 @@ const { DelhiRouter } = require("./routes/DelhiRouter")
 const { MumbaiRouter } = require("./routes/mumbaiRouter")
 const { BangloreRouter } = require("./routes/bangloreRouter")
 const { CarRouter } = require("./routes/carSpecificationRoute")
+const { AdminRouter } = require("./routes/adminRouter")
+
 require("dotenv").config()
 const cors = require("cors")
 
@@ -19,7 +21,7 @@ app.use("/d",DelhiRouter)
 app.use("/m",MumbaiRouter)
 app.use("/b",BangloreRouter)
 app.use("/zoom",CarRouter)
-
+app.use("/admin", AdminRouter)
 app.listen(process.env.port,async()=>{
     try {
          connection

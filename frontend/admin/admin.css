@@ -1,0 +1,44 @@
+
+a{
+text-decoration: none;
+color: white;
+}
+#admin{
+    width: 35%;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+ 
+
+}
+#image{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    display: flex;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+input{
+    
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid green;
+    margin-left: 215px;
+}
+button{
+    cursor: pointer;
+    background-color:green ;
+    width: 40%;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin-left: 210px;
+    margin-top: 80px;
+}
