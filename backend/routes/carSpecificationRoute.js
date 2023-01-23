@@ -39,7 +39,7 @@ CarRouter.post("/PostCars",async (req,res)=>{
         })
     }
 })
-
+// high to low
 CarRouter.get("/priceSortHtoL", async (req, res)=>{
     try {
      let data = await CarModel.find().sort({Price:-1})
@@ -51,7 +51,7 @@ CarRouter.get("/priceSortHtoL", async (req, res)=>{
         })
     }
  })
-
+// low to high
  CarRouter.get("/priceSortLtoH", async (req, res)=>{
     try {
      let data = await CarModel.find().sort({Price:1})
@@ -63,7 +63,7 @@ CarRouter.get("/priceSortHtoL", async (req, res)=>{
         })
     }
  })
-
+// best rating
  CarRouter.get("/bestRate", async (req, res)=>{
     try {
      const query = req.query.q
@@ -76,7 +76,7 @@ CarRouter.get("/priceSortHtoL", async (req, res)=>{
         })
     }
  })
-
+//distance
  CarRouter.get("/distance", async (req, res)=>{
     try {
      let data = await CarModel.find().sort({Kms_Driven:1})
