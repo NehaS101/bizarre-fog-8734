@@ -331,7 +331,10 @@ width: 100%;
 }
 
 #guest{
-    
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
 }
 #free{
     text-align: center;
