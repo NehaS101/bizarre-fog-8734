@@ -33,7 +33,7 @@ function display(data){
         rating.innerText=`★ ${el.Rating}`
         const price = document.createElement("h3")
         price.id="price"
-        price.innerText=`₹${el.Price}`
+        price.innerText=`₹${el.Price}/hr`
         const km = document.createElement("p")
         km.id="kms"
         km.innerText=el.Kms_Driven

@@ -322,12 +322,32 @@ bottom: 25px;
 #book{
     height: 650px;
     position: relative;
-    
+    margin-bottom: 50px;
     width: 100%;
 }
 #book>img{
 height: 650px;
 width: 100%;
+}
+
+#guest{
+    margin-bottom: 100px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+#hear{
+width: 500px;
+cursor: pointer;
+}
+#guesImg{
+height: 200px;
+width: 200px;
+}
+#hear>article{
+    font-size: 21px;
+    color: #666;
 }
 #free{
     text-align: center;
@@ -344,7 +364,7 @@ width: 100%;
 #bottom{
     color: white;
     background-color: #383838;
-    
+    margin-top: 100px;
 }
 #bottom2{
     width: 90%;
