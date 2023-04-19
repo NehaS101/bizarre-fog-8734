@@ -322,7 +322,7 @@ bottom: 25px;
 #book{
     height: 650px;
     position: relative;
-    
+    margin-bottom: 50px;
     width: 100%;
 }
 #book>img{
