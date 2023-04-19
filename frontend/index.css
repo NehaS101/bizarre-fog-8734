@@ -339,6 +339,7 @@ width: 100%;
 }
 #hear{
 width: 500px;
+cursor: pointer;
 }
 #guesImg{
 height: 200px;
