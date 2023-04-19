@@ -337,14 +337,15 @@ width: 100%;
     justify-content: space-between;
 }
 #hear{
-
+width: 500px;
 }
 #guesImg{
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
 }
 #hear>article{
-    font-size: 19px;
+    font-size: 21px;
+    color: #666;
 }
 #free{
     text-align: center;
