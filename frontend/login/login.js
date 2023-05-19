@@ -2,7 +2,7 @@ let mobile = document.getElementById("#mobile")
 var button = document.querySelector("button")
 let password = document.querySelector("#password")
 
-let url="http://localhost:3000";
+let url="https://loggybackend.onrender.com";
 let base=`${url}/user`;
 let login=`${base}/login`
 

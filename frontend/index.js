@@ -29,7 +29,7 @@ button.addEventListener("click", () => {
     menu.style.opacity = "1"
 })
 
-let URL = "http://localhost:3000"
+let URL = "https://loggybackend.onrender.com"
 let endpoint = `${URL}/cars`
 let car = `${endpoint}/carData`
 let container = document.querySelector("#slide")

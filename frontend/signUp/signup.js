@@ -1,4 +1,4 @@
-let url="http://localhost:3000";
+let url="https://loggybackend.onrender.com";
 let base=`${url}/user`;
 let signup=`${base}/register`;
 
