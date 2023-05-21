@@ -24,7 +24,7 @@ app.use("/zoom",CarRouter)
 app.use("/admin", AdminRouter)
 app.listen(process.env.port,async()=>{
     try {
-         connection
+        await connection
     } catch (error) {
        console.log(error)
     }
